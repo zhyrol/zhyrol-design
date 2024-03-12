@@ -1,11 +1,11 @@
 {
-  "homepage": "https://zhyrol.github.io/zhyrol.design",
+  
   "name": "tidy-react",
   "version": "0.1.0",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+   
+    
     "build": "vite build",
     "preview": "vite preview"
   },
