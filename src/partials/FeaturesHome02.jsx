@@ -1,7 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
-import FeaturesImage from '../images/features-home-02.png';
+import FeaturesImage from '../images/my-images/five.jpg';
+import FeaturesImage1 from '../images/my-images/six.jpg';
+import FeaturesImage2 from '../images/my-images/seven.png';
+
 
 function FeaturesHome02() {
 
@@ -16,7 +19,7 @@ function FeaturesHome02() {
   }
 
   useEffect(() => {
-    heightFix()
+    // heightFix()
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [tab])
 
@@ -28,7 +31,7 @@ function FeaturesHome02() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-playfair-display text-slate-800">The quick brown fox jumped over the lazy dog</h2>
+            <h2 className="h2 font-playfair-display text-slate-800">Feedbacks From the Professors</h2>
           </div>
 
           {/* Section content */}
@@ -66,7 +69,7 @@ function FeaturesHome02() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesImage} width="540" height="620" alt="Features home 2 02" />
+                    <img className="md:max-w-none mx-auto rounded" src={FeaturesImage1} width="540" height="620" alt="Features home 2 02" />
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -82,7 +85,7 @@ function FeaturesHome02() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesImage} width="540" height="620" alt="Features home 2 03" />
+                    <img className="md:max-w-none mx-auto rounded" src={FeaturesImage2} width="540" height="620" alt="Features home 2 03" />
                   </div>
                 </Transition>                
               </div>
@@ -91,8 +94,8 @@ function FeaturesHome02() {
             {/* Content */}
             <div className="md:w-7/12 lg:w-1/2" data-aos="fade-up">
               <div className="mb-8 text-center md:text-left">
-                <h3 className="h3 text-slate-800 font-playfair-display mb-3">Built exclusively for you</h3>
-                <p className="text-xl text-slate-500">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.</p>
+                <h3 className="h3 text-slate-800 font-playfair-display mb-3">Feedbacks in school</h3>
+                <p className="text-xl text-slate-500">This is the overall feedbacks from different persons</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -104,8 +107,9 @@ function FeaturesHome02() {
                     <path d="M9.4 6.6c.8.8.8 2 0 2.8-.8.8-2 .8-2.8 0-.8-.8-5-7.8-5-7.8s7 4.2 7.8 5Z" /><path d="M8 16c-4.4 0-8-3.6-8-8 0-.6.4-1 1-1s1 .4 1 1c0 3.3 2.7 6 6 6s6-2.7 6-6-2.7-6-6-6c-.6 0-1-.4-1-1s.4-1 1-1c4.4 0 8 3.6 8 8s-3.6 8-8 8Z" />
                   </svg>
                   <div>
-                    <div className="text-slate-800 font-medium mb-1">Internal Feedback</div>
-                    <div className="text-slate-500">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur velit.</div>
+                    <div className="text-slate-800 font-medium mb-1">Professor's Feedback</div>
+                    <div className="text-slate-500">I look forward to seeing how you develop these designs further! Consider adding a brief description to each scheme that highlights the design intent or key features.
+                    </div>
                   </div>
                 </button>
                 <button
@@ -116,8 +120,8 @@ function FeaturesHome02() {
                     <path d="M4.019 15.276.034 1.329A1.058 1.058 0 0 1 1.33.034L15.276 4.02c.896.299.996 1.494.1 1.893L8.8 8.8l-2.79 6.574c-.498.897-1.693.797-1.992-.1ZM2.525 2.525l2.69 9.463 1.892-4.383c.1-.199.299-.398.498-.498l4.383-1.893-9.463-2.69Z" />
                   </svg>
                   <div>
-                    <div className="text-slate-800 font-medium mb-1">Internal Feedback</div>
-                    <div className="text-slate-500">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur velit.</div>
+                    <div className="text-slate-800 font-medium mb-1">Classmates Feedback</div>
+                    <div className="text-slate-500">I was really impressed with your clear presentation in your recent plates. The drafting skill you have is insane.</div>
                   </div>
                 </button>
                 <button
@@ -128,8 +132,8 @@ function FeaturesHome02() {
                     <path d="M15.686 5.71 10.291.3c-.4-.4-.999-.4-1.399 0a.97.97 0 0 0 0 1.403l.6.6L2.698 6.01l-1-1.002c-.4-.4-.999-.4-1.398 0a.97.97 0 0 0 0 1.403l1.498 1.502 2.398 2.404L.6 14.023 2 15.425l3.696-3.706 3.997 4.007c.5.5 1.199.2 1.398 0a.97.97 0 0 0 0-1.402l-.999-1.002 3.697-6.711.6.6c.599.602 1.199.201 1.398 0 .3-.4.3-1.1-.1-1.502Zm-7.193 6.11L4.196 7.511l6.695-3.706 1.298 1.302-3.696 6.711Z" />
                   </svg>
                   <div>
-                    <div className="text-slate-800 font-medium mb-1">Internal Feedback</div>
-                    <div className="text-slate-500">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur velit.</div>
+                    <div className="text-slate-800 font-medium mb-1">Friends Feedback</div>
+                    <div className="text-slate-500">The manual rendering skill you have is awesome!, I want to learn how you did that.</div>
                   </div>
                 </button>
               </div>

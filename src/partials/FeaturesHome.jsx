@@ -1,7 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
-import FeaturesImage from '../images/my-images/one.png';
+import FeaturesImage from '../images/my-images/three.png';
+import FeaturesImage1 from '../images/my-images/two.png';
+import FeaturesImage2 from '../images/my-images/one.png';
+import FeaturesImage3 from '../images/my-images/four.jpg';
 
 function FeaturesHome() {
 
@@ -16,7 +19,7 @@ function FeaturesHome() {
   }
 
   useEffect(() => {
-    heightFix()
+    // heightFix()
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [tab])
 
@@ -30,8 +33,8 @@ function FeaturesHome() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
-            <h2 className="h2 font-playfair-display text-slate-800 mb-4">Built exclusively for you</h2>
-            <p className="text-xl text-slate-768">Excepteur s474 occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.</p>
+            <h2 className="h2 font-playfair-display text-slate-800 mb-4">Plates Examples</h2>
+            <p className="text-xl text-slate-768">Here is the accumulated plates from first year to present time.</p>
           </div>
 
           {/* Section content */}
@@ -50,7 +53,7 @@ function FeaturesHome() {
                       <path fillOpacity=".64" fill="#5091EE" d="M29 20h3v16h-3zM35 20h1v16h-1z" />
                     </svg>
                   </div>
-                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Internal Feedback</div>
+                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Final Plates</div>
                 </div>
               </button>
               <button
@@ -64,7 +67,7 @@ function FeaturesHome() {
                       <path fill="#2174EA" d="M20 25h11v11H20z" />
                     </svg>
                   </div>
-                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Internal Feedback</div>
+                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Sketchup Plates</div>
                 </div>
               </button>
               <button
@@ -80,7 +83,7 @@ function FeaturesHome() {
                       <path fill="#2174EA" d="M27 36l-7-7v7z" />
                     </svg>
                   </div>
-                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Internal Feedback</div>
+                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Architectural Photography Plate</div>
                 </div>
               </button>
               <button
@@ -94,7 +97,7 @@ function FeaturesHome() {
                       <path d="M35 21h-8c-.6 0-1 .4-1 1v11c0 .7-.2 1.4-.6 2H33c1.7 0 3-1.3 3-3V22c0-.6-.4-1-1-1z" fill="#2174EA" />
                     </svg>
                   </div>
-                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Internal Feedback</div>
+                  <div className="md:text-lg leading-tight font-semibold text-slate-800">Manual Rendering Plate</div>
                 </div>
               </button>              
             </div>
@@ -113,7 +116,7 @@ function FeaturesHome() {
                 leaveStart="opacity-100 translate-y-0"
                 leaveEnd="opacity-0 -translate-y-16"
               >
-                <img className="mx-auto shadow-2xl" src={FeaturesImage} width="768" height="474" alt="Features home 01" />
+                <img className="mx-auto shadow-2xl" src={FeaturesImage} width="500" height="300" alt="Features home 01" />
               </Transition>
               {/* Item 2 */}
               <Transition
@@ -127,7 +130,7 @@ function FeaturesHome() {
                 leaveStart="opacity-100 translate-y-0"
                 leaveEnd="opacity-0 -translate-y-16"
               >
-                <img className="mx-auto shadow-2xl" src={FeaturesImage} width="768" height="474" alt="Features home 02" />
+                <img className="mx-auto shadow-2xl" src={FeaturesImage1} width="500" height="300" alt="Features home 02" />
               </Transition>
               {/* Item 3 */}
               <Transition
@@ -141,7 +144,7 @@ function FeaturesHome() {
                 leaveStart="opacity-100 translate-y-0"
                 leaveEnd="opacity-0 -translate-y-16"
               >
-                <img className="mx-auto shadow-2xl" src={FeaturesImage} width="768" height="474" alt="Features home 03" />
+                <img className="mx-auto shadow-2xl" src={FeaturesImage2} width="500" height="300" alt="Features home 03" />
               </Transition>
               {/* Item 4 */}
               <Transition
@@ -155,7 +158,7 @@ function FeaturesHome() {
                 leaveStart="opacity-100 translate-y-0"
                 leaveEnd="opacity-0 -translate-y-16"
               >
-                <img className="mx-auto shadow-2xl" src={FeaturesImage} width="768" height="474" alt="Features home 04" />
+                <img className="mx-auto shadow-2xl" src={FeaturesImage3} width="500" height="300" alt="Features home 04" />
               </Transition>              
             </div>
 

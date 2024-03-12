@@ -16,8 +16,10 @@ function Cta() {
             </div>
 
             <div className="relative">
-              <h2 className="h2 font-playfair-display text-slate-800 mb-4">Say goodbye to long queues, big updates, and <span className="text-emerald-500">confusion</span>.</h2>
-              <p className="text-xl text-slate-500 mb-8">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.</p>
+              <h2 className="h2 font-playfair-display text-slate-800 mb-4">Available for freelance projects. Let's connect!,</h2>
+              <p className="text-xl text-slate-500 ">Zhyrol1234@gmail.com</p>
+              <p className="text-xl text-slate-500 ">Zhyrol Zenarosa Garcia</p>
+              <p className="text-xl text-slate-500 ">09058317135</p>
               
             </div>
             

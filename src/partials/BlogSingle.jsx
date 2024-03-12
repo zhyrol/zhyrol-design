@@ -21,7 +21,7 @@ function BlogSingle() {
               <div className="mb-8">
                 {/* Title and excerpt */}
                 <div className="text-center md:text-left">
-                  <Link className="inline-flex font-semibold text-blue-600 hover:text-blue-500 transition duration-150 ease-in-out group mb-2" to="/blog" data-aos="fade-down"><span className="tracking-normal text-blue-600 group-hover:-translate-x-0.5 transition-transform duration-150 ease-in-out mr-1">&lt;-</span> Back to Blog</Link>
+                  <Link className="inline-flex font-semibold text-blue-600 hover:text-blue-500 transition duration-150 ease-in-out group mb-2" to="https://www.facebook.com/profile.php?id=100001312745121" data-aos="fade-down"><span className="tracking-normal text-blue-600 group-hover:-translate-x-0.5 transition-transform duration-150 ease-in-out mr-1">&lt;-</span> Back to Blog</Link>
                   <h1 className="h2 font-playfair-display text-slate-100 mb-6">Introducing the Market Builder Tool</h1>
                 </div>
                 {/* Article meta */}
