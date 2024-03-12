@@ -3,7 +3,7 @@ import Transition from '../utils/Transition';
 
 import FeaturesImage from '../images/my-images/five.jpg';
 import FeaturesImage1 from '../images/my-images/six.jpg';
-import FeaturesImage2 from '../images/my-images/seven.png';
+import FeaturesImage2 from '../images/my-images/seven.PNG';
 
 
 function FeaturesHome02() {
